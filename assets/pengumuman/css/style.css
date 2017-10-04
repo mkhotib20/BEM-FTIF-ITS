@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Hind|Lobster');
+.main-sec{
+	font-family: 'Hind';
+	font-size: 20px;
+}
+.form-nrp input{
+	height: 40px;
+	-moz-transition: all 0.3s ease-in-out;
+	  -o-transition: all 0.3s ease-in-out;
+	  -webkit-transition: all 0.3s ease-in-out;
+	  transition: all 0.3s ease-in-out;
+}
+.judul{
+	font-family: 'Lobster';
+	color: #578be0;
+		
+}
+.submit{
+	height: 50px;
+	-moz-transition: all 0.3s ease-in-out;
+	  -o-transition: all 0.3s ease-in-out;
+	  -webkit-transition: all 0.3s ease-in-out;
+	  transition: all 0.3s ease-in-out;
+}
+.submit:hover{
+	background-color: white;
+	color: #578be0;
+	border: 2px solid #578be0;
+}
+footer{
+	margin-top: 140px;
+	font-family: 'Hind';
+	color: #444;
+}
+@media(min-width: 992px){
+	body{
+		background-image: url('../img/bg.png');
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.judul{
+		font-size: 50px;
+	}
+}
+@media(max-width: 992px){
+	body{
+		background-image: url('../img/bg-mob.png');
+		background-size: 150%;
+		background-repeat: no-repeat;
+	}
+}
+.box{
+	background-color: #dbdbdb;
+	padding: 20px;
+}
